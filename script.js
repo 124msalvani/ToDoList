@@ -24,8 +24,12 @@ list.addEventListener("click",function(e){
         const li = e.target.parentElement;
         list.removeChild(li);
     } else if(e.target.className == "crossout"){
-        e.target.parentElement.classList.add('strike');
-    }
+         
+        if (e.target.parentElement.classList.contains("strike")){
+            e.target.parentElement.classList.remove('strike');
+        } else {
+            e.target.parentElement.classList.add('strike');
+    }};
 });
 
 
