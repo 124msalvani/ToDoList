@@ -50,7 +50,7 @@ addForm.addEventListener("submit", function(e){
 
     //add content
     /*adds class*/ deleteBtn.className = "delete";
-    /*adds text inside span*/deleteBtn.textContent = "delete";
+    /*adds text inside span*/deleteBtn.textContent = "Delete";
     /*adds class*/ crossBtn.className = "crossout";
     /*adds text inside span*/crossBtn.textContent = "Crossout";
     /*adds class*/bookName.classList.add ("name");

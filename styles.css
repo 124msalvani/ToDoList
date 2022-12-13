@@ -149,12 +149,12 @@ h1, h2{
 }
 
 #book-list li:hover{
-    border-color: #9361bf;
+    border-color: #9ad0e0;
 }
 
 .delete{
     float: right;
-    background: #9361bf;
+    background: #d41818;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
@@ -162,12 +162,12 @@ h1, h2{
 }
 
 .delete:hover{
-    background: #333;
+    background: rgb(204, 95, 95);
 }
 
 .crossout{
     float: right;
-    background: #771b49;
+    background: #272f7a;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
@@ -175,7 +175,7 @@ h1, h2{
 }
 
 .crossout:hover{
-    background: rgb(240, 109, 218);
+    background: rgb(43, 119, 219);
 }
 
 .strike{  /* strikethrough done todo */
@@ -200,19 +200,19 @@ h1, h2{
 }
 
 #add-book button{
-    border: 1px solid #9361bf;
-    background: #9361bf;
+    border: 1px solid #50dbbd;
+    background: #279e9e;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
     margin: 0;
-    border-radius: 0 4px 4px 0;
     cursor: pointer;
     width: 100px;
     float: left;
     margin: 20px 0;
     border-left: 0;
     color: white;
+    border-radius: 12px;
 }
 
 #add-book:after{
